@@ -26,7 +26,7 @@ Biểu đồ lớp này mô tả mối quan hệ giữa ba lớp: Student, Class
 ## Biểu đồ:
 ![Diagram](https://www.planttext.com/api/plantuml/svg/X90z2iCm38Ltdq9uQY4PkcOAz0A5z0AkfIOkZWssF9MUh4EFr2lK-IEXIy08wyFlwSdVzwUEh0AdtWgXhOeH6av8Zk4f04g35HZ7mzMfdYg878nhXruX1efnYwXNncv0FelTuRXj31Om-1KmknGmQiT7hR_wHdVUsonwBR7EOzqB5NL7c6ncg9XMzINuUnxZmxv3kZr8yzyMJ4ftKvmfY2_BPPkPI2SXGtcIwpGXH4qEy-_-0000__y30000)
 
-## BIỂU ĐỒ SEQUENCE MÔ TẢ QUÁ TRÌNH ĐĂNG NHẬP VÀO MỘT WEB SITE
+## BIỂU ĐỒ SEQUENCE MÔ TẢ QUÁ TRÌNH ĐĂNG NHẬP VÀO MỘT WEBSITE
 Mô tả Sequence Diagram:
 Biểu đồ này mô tả quá trình đăng nhập vào một website. Dưới đây là các bước:
 
