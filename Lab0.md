@@ -1,3 +1,4 @@
+## BIỂU ĐỒ USE CASE CHO HỆ THỐNG ATM ĐƠN GIẢN
 ## Mô tả Biểu Đồ:
 Biểu đồ này mô tả tương tác giữa một Người dùng (User) và một Hệ thống Ngân hàng (BankSystem). Người dùng có thể thực hiện hai hành động chính: rút tiền (withdraw) và gửi tiền (deposit). Các hành động này được gửi dưới dạng yêu cầu đến Hệ thống Ngân hàng, hệ thống sẽ xử lý và cập nhật số dư tài khoản của người dùng tương ứng.
 
@@ -10,3 +11,17 @@ Biểu đồ này cung cấp một cái nhìn đơn giản về các tương tá
 
 ## Biểu đồ:
 ![Diagram](https://www.planttext.com/api/plantuml/svg/UhzxlqDnIM9HIMbk3bTEQbg9Gac-Gb5cUaQ9GafcKMfoIMP-7XTNOd99Vf52Q75g4PJfb9YN7LnPN9AQoyK5KfMObvwJ2XPLgEPI0AjKqDMrKz0epop9I2bABDT44Kr9BSWlpYm12I9KWAMG35P0g4ENgkLoICrB0JeP0000__y30000)
+
+## BIỂU ĐỒ LỚP CHO HỆ THỐNG QUẢN LÝ LỚP HỌC PHẦN 
+## Mô tả biểu đồ:
+Biểu đồ lớp này mô tả mối quan hệ giữa ba lớp: Student, Class, và Professor:
++ Student: Đại diện cho một sinh viên với các thuộc tính như ID, tên, địa chỉ và email. Sinh viên có thể đi học (goToSchool).
++ Class: Đại diện cho một lớp học với các thuộc tính như ID, tên và lịch học.
++ Professor: Đại diện cho một giáo viên với các thuộc tính như ID, tên và môn giảng dạy. Giáo viên có thể giảng dạy (teach).
+
+## Mối quan hệ:
+Class --o Student: Một lớp có thể có nhiều sinh viên. Mối quan hệ này là một-nhiều.
+Class "n" -- "1" Professor: Một lớp chỉ có thể có một giáo viên hoặc một giáo viên có thể dạy nhiều lớp. 
+
+## Biểu đồ:
+![Diagram](https://www.planttext.com/api/plantuml/svg/X90z2iCm38Ltdq9uQY4PkcOAz0A5z0AkfIOkZWssF9MUh4EFr2lK-IEXIy08wyFlwSdVzwUEh0AdtWgXhOeH6av8Zk4f04g35HZ7mzMfdYg878nhXruX1efnYwXNncv0FelTuRXj31Om-1KmknGmQiT7hR_wHdVUsonwBR7EOzqB5NL7c6ncg9XMzINuUnxZmxv3kZr8yzyMJ4ftKvmfY2_BPPkPI2SXGtcIwpGXH4qEy-_-0000__y30000)
