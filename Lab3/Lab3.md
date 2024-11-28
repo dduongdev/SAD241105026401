@@ -58,3 +58,25 @@
 
 ## Diagram
 ![Diagram](https://www.planttext.com/api/plantuml/png/f9B1JiCm38RlUGeVsI5xWAcgXWe7941ey09kPxfCILCvBberzcGSU2HUWLHqK26b1uWKARAT___ivEFjVHq4MJfdbH8Zbk2nAqCVX1mKlX4w25mPh1aTQ7XWlwTAu0uRhCbH4vCeM68WfIgB8SIKQIJk9-EeGDuE8kmjP5drTSfpE9x6ue89XQvTQtrFjA7MioGkg2XB_8mLmSs8yKDnXe2ZWhXgaiiND1PBIyKEkQRxpfN4uMAnWbiJ99j6StKwmwU5ionypwLbV-W7gl-PJSDHFxePwSTcKrFKEfzfVvM6KNEZ_hjgUc2wQvVBrpbTDVEEcaszau5hwZTdzxjKhQdPnc_z2G00__y30000)
+
+# Ánh xạ các lớp phân tích đến phần tử thiết kế: Ca sử dụng Maintain Timecard
+| Analysis Class            | Design Element     	 |
+|---------------------------|----------------------------|
+| TimecardForm              | TimecardForm       	 |
+| TimecardController        | TimecardController 	 |
+| Employee                  | Employee           	 |
+| Timecard                  | Timecard           	 |
+| ProjectManagementDatabase | IProjectManagementDatabase |
+
+# Ánh xạ các phần tử thiết kế vào các gói: Ca sử dụng Maintain Timecard
+| Design Element     	     | "Owning" package                   |
+|----------------------------|------------------------------------|
+| TimecardForm       	     | Middleware::Security:GUI Framework |
+| TimecardController 	     | Applications::Employee Activities  |
+| Employee           	     | Applications::Entities             |
+| Timecard           	     | Applications::Entities             |
+| IProjectManagementDatabase | Data Access             		  |
+
+# Architecture layers diagram
+![Diagram](https://www.planttext.com/api/plantuml/png/RCzD2i9038RXVKuHkkyLf2DTklC48GqrE1s7J4OGwSbSU2Ilu0y8LRf-Fnxu7hTxLvpCwnJ1rQFWZYvYCc0mFgWBUpN1NcaqcW0oyP56mIRa79N9zPGQlCAyIDjQD4afk1SxAqlv7_JaX85VvPj-kRRTh2cm9d-sIn2WapIy_pm1003__mC0)
+
