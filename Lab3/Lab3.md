@@ -80,3 +80,15 @@
 # Architecture layers diagram
 ![Diagram](https://www.planttext.com/api/plantuml/png/RCzD2i9038RXVKuHkkyLf2DTklC48GqrE1s7J4OGwSbSU2Ilu0y8LRf-Fnxu7hTxLvpCwnJ1rQFWZYvYCc0mFgWBUpN1NcaqcW0oyP56mIRa79N9zPGQlCAyIDjQD4afk1SxAqlv7_JaX85VvPj-kRRTh2cm9d-sIn2WapIy_pm1003__mC0)
 
+### Chức năng của từng lớp:
+- Application Layer: 
+	* Xử lý yêu cầu từ client và điều phối các luồng công việc tương ứng với các use case.
+	* Không chứa logic nghiệp vụ mà sẽ chuyển yêu cầu đến Business Services Layer.
+- Business Services Layer:
+	* Xử lý logic nghiệp vụ.
+- Data Access Layer:
+	* Cung cấp chức năng CRUD từ cơ sở dữ liệu hoặc từ các nguồn khác (Ví dụ: ProjectManagementDatabase).
+
+
+### Mối quan hệ giữa các layer:
+- Chỉ có tầng trên biết đến và sử dụng tầng dưới, không có trường hợp ngược lại.
