@@ -124,8 +124,8 @@
 ![Diagram](https://www.planttext.com/api/plantuml/png/X5HBRjim4Dtp55gcG7M1BegaGe5uqKQe0sGzeIOLONwC8Hb0Q7EoBdgaNg4aHLgKB23Uc9ptXZDyZwD_V_xUMWVal9AC2UsGNe1ZSvoiGzL9mq-7I_0NQy8lqMy-i3V6EWdMDZrCPAJiZ7Rn7oaJoUiCrUn7eP033OdKDgFnP9yCdN18-pDCFP98kr0BNZ4an-LFT2Nre5zCZlhp00uBKDVvgixIJ8YvZWQ5QO4vVfZhFOC-nVFInXekG1wHUn9k-kxLCr82O1W8hPqx78t62aC5GfRU5Mht3Trevlw53GeCC2rt2FixPRnsgz2IjeI_vCwMIEU90h6wRGGuIEvbKA5FTMfR-8Zyb0M0L7NE80pq9-76tCgCLRdtmHKvRIGSK_17I2qDtLyYTU4ZI8WERj91Qn_4ZU1K3hYhOlKHdL5AM2k2qjjZ-0MgE-azyH4iFj20P2l9LkoLF7L6Vh7ne8Ui-Liz3Zs5zH7fLN3SpiCvOjk4QDuyGrVZWtg8w2E1ji1TQEq6YbUVBgvzRDo8vGcamtT7icslnuzT3sIW5HdPnjks_Vrv0Q-yMyExlYJADd6VQcA_jV1i1PMNlOuMIVRlzGwwPzm-TSSoncw3M-7J-1y00F__0m00)
 
 # The reason for proposing these designs is that use case design focuses on ensuring that each use case is implemented and maintains consistency from start to finish. This includes the following steps:
-## Identify participating objects.
-## Allocate responsibilities among objects.
-## Model messages Between objects.
-## Describe processing resulting from messages.
-## Model associated class relationships.
+- Describe interaction among design objects.
+- Simplify sequence diagrams using subsystems.
+- Describe persistence-related behavior.
+- Refine the flow of events description.
+- Unify classes and subsystems.
